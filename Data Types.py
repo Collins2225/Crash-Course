@@ -104,6 +104,25 @@ type(None) #none
 
 type(5 > 3) #boolean 5 > 3 it evaluates true
 
+print(type(10 + 5.0)) # <class 'float'>
+
+print(type("5" * 2)) #55
+ 
+print(int(3.9)) # 3
+
+print(float("10") + 5) #15.0
+
+print("Age: " + str(20)) # Age 20
+
+print(bool("")) #False
+
+print(bool("False")) #True
+
+print(type(None))#<class 'NoneType'>
+
+print(str(3) * 3) #333
+
+print(int("5") + float("2.5")) #7.5
 
 
 
