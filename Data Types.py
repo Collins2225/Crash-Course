@@ -86,3 +86,24 @@ int("5") → 5 (conversion)
 
 Understanding types is the foundation of writing correct, predictable code.
 """
+type(5) # integer
+
+type(3.14) # float
+
+type("Hello") # strings
+
+type(True) # boolean
+
+type("123") #string
+
+type(float(10)) #float
+
+type("True") #string
+
+type(None) #none
+
+type(5 > 3) #boolean 5 > 3 it evaluates true
+
+
+
+
