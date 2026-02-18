@@ -72,5 +72,16 @@ x = 5
 x += 2
 print(x)
 
-print(not (5 > 2)
-)
+print(not (5 > 2))
+
+print(3 * 2 ** 2)
+
+print("z" not in "pizza")
+
+x = None
+x is None
+print(x)
+
+print(10 - 3) * 2
+
+
