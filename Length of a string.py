@@ -14,28 +14,15 @@ len("")   # 0
 len(123)      # error
 len(str(123)) # 3
 
-len("\n")   # 1
-
-len("\t")   # 1
-
-len("Python")
-
-len("Hello world")
-
-len("12345")
-
-len("Hi!")
-
-len("   ")
-
-len("")
-
-len("True")
-
-len("False ")
-
-len("A\nB")
-
-len(str(2026))
-
-print(len)
+print(len("\n"))        # 1
+print(len("\t"))        # 1
+print(len("Python"))    # 6
+print(len("Hello world"))  # 11
+print(len("12345"))     # 5
+print(len("Hi!"))       # 3
+print(len("   "))       # 3
+print(len(""))          # 0
+print(len("True"))      # 4
+print(len("False "))    # 6
+print(len("A\nB"))      # 3
+print(len(str(2026)))   # 4

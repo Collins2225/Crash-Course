@@ -172,3 +172,8 @@ print(3!=3)
 print(10=="10")
 
 print(5 > 2)
+print(True and  False)
+
+print (True or False)
+print(False and True)
+print(False or True)
